@@ -18,7 +18,7 @@ const val CHANNEL_NAME = "com.example.fcm"
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
 
-    //we need 3 Things -> 1.Generate notification 2-> attached the notification created 3-> show the notification
+    // we need 3 Things -> 1.Generate notification 2-> attached the notification created 3-> show the notification
 
 
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
@@ -75,5 +75,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         notificationManager.notify(0, builder.build())
 
     }
-    // Rahul 
+    // Rahul
+    // Swapnil Nangare Feauture changes
+
 }
